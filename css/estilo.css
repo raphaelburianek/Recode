@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+ /* ESTILO DO MENU*/
+.menu {
+    background-color: black;
+    width: 100%;
+   
+}
+                                    /* MESMO ESTILO PARA TODAS AS PAGINAS*/
+.menu a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* FIM DO ESTILO DO MENU */
+
+/*ESTILO DA FORMA DE PAGAMENTO*/
+#formas_pagamento {
+    color: red;                     /* MESMO ESTILO PARA TODAS AS PAGINAS*/
+}
+/* FIM DA FORMA DE PAGAMENTO*/
+
+
+/* MENU DE PRODUTOS*/                   /*SOMENTE USADO NO ARQUIVO produtos.html*/
+#produtosTopo {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    text-shadow: 0.05em 0.05em rgb(41, 39, 39);
+}
+
+#menuProdutos tr td h3 {
+    text-align: center;
+    font-size: 40px;                    
+    color: brown;
+}
+
+#menuProdutos tr td ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+
+}
+
+/*FIM DO MENU DE PRODUTOS*/
+
+table tr td {
+    border: 1px solid red;
+}

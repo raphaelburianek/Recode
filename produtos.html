@@ -6,29 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos-eletro</title>
-    <style>
-        a {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            text-decoration: none;
-            
-        }
-
-        #menu {
-            width: 100%;
-            background-color: black;
-        }
-        #menuProdutos {
-            background-color: rgb(186, 186, 238);
-            text-align: center;
-            font-family: sans-serif;      
-         }
-    </style>
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
 <body>
     <!--Inicio do Menu-->
-    <table id="menu">
+    <table class="menu">
         <tr>
             <td align="center" width="25%">
                 <a href="index.html">
@@ -48,14 +31,14 @@
         </tr>
     </table>
     <!--Fim do menu-->
-    <h2>Produtos</h2>
+    <h2 id="produtosTopo">Nossos Produtos</h2>
     <hr>
     <!--linha-->
-    <table border="0" width="100%" cellpadding="">
+    <table id="menuProdutos"  border="0" width="100%" cellpadding="">
         <tr>
-            <td id="menuProdutos" rowspan="5" width="20%" valign="top">
+            <td rowspan="5" width="20%" valign="top">
                 <h3>
-                    <font face="Arial">Categorias</font>
+                    Categorias
                 </h3>
                 <ul>
                     <li>
@@ -95,7 +78,7 @@
                 <!--Quebra de linha-->
                 <font face="Arial" size="2">Refrigerador Electrolux Degelo Prático RE31 com Controle de Temperatura
                     240L- Branco</font>
-                <hr>z'zz
+                <hr>
                 <!--LINHA-->
                 <font face="Arial" size="2"><strike>R$ 2.399,00</strike></font><br>
                 <font face="Arial" size="4" color="red">R$ 2.019,00</font><br>
@@ -248,9 +231,9 @@
             </tr>
     </table>
     <center>
-    <h4>Formas de pagamento</h4>
+    <h4 id="formas_pagamento">Formas de pagamento</h4>
 
     <img src="./img/pagamento.png" alt="Formas de pagamento">
     </center>
-
+</body>
 </html>
